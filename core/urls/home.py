@@ -3,4 +3,5 @@ from core.views.home import *
 
 urlpatterns = [
     path('', home_view),
+    path('api/', AuthAPI.as_view())
 ]
