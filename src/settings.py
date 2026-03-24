@@ -29,6 +29,10 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
+APP_NAME = "Project 1"
+
+
+
 # Application definition
 
 INSTALLED_APPS = [
